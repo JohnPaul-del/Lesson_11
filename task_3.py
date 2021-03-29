@@ -13,6 +13,6 @@ while val.upper() != "STOP":
         else:
             raise NumbersErr("Only numbers")
     except NumbersErr as err:
-        print("Only numbers!")
+        print(err)
 
 print(res)
