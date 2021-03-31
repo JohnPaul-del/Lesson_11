@@ -20,4 +20,4 @@ class ComplexNumber:
 a = ComplexNumber(3, -3)
 b = ComplexNumber(4, 3)
 print(f"First complex: {a.get_complex_num()}\nSecond complex: {b.get_complex_num()}"
-      f"\nSum of complex{a + b}\nMul of complex: {a * b}")
+      f"\nSum of complex: {a + b}\nMul of complex: {a * b}")
